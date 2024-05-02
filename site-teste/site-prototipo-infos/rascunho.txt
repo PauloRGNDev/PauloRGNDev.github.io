@@ -1,0 +1,41 @@
+                    RASCUNHO -> SITE PROTOTIPO
+
+Titulo: Influência dos Animes na cultura japonesa
+
+Parágrafo: Animes são desenhos criados no Japão, tendo em boa parte das vezes o objetivo de divertir quem assiste por meio
+de histórias e animações que empolgue quem assiste, como uma luta ou cena de culinária por exemplo, dito isso,
+ qual a influência dos animes na cultura japonesa?
+
+Local para obter cores: https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_colors/Color_picker_tool 
+Cor 1(Preto): #091B38
+Cor 2(Azul): #0F3A7F
+Cor 1-2(Degrade -> Azul/Preto): #102E5F
+
+*Para obter imagem no google usar filtro de imagens com licença de autorização comercial
+
+Local para obter fontes de texto: https://fonts.google.com/selection/embed
+Fonte escolhida: Open Sans
+/*********************************/
+Codigo da fonte:
+Embed code in the <head> of your html
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+Open Sans: CSS class for a variable style
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800
+
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/*********************************/
+
+
